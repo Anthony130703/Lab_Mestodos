@@ -23,7 +23,7 @@ print("(D+1)(D-x)(2e^x + cos(x)) =", resultado_final)
 
 
 # Imprimiendo algunos resultados numericos
-print("\nresultados numericos:")
+print("\nresultados numericos con x = 0:")
 print(f1_deriv.subs(x, 0))
 print(f2_deriv.subs(x, 0))
 print(resultado_final.subs(x, 0))
